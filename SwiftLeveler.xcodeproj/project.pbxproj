@@ -12,6 +12,8 @@
 		AFCDF7221D15AFE6001BA368 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFCDF7201D15AFE6001BA368 /* Main.storyboard */; };
 		AFCDF7241D15AFE6001BA368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFCDF7231D15AFE6001BA368 /* Assets.xcassets */; };
 		AFCDF7271D15AFE6001BA368 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFCDF7251D15AFE6001BA368 /* LaunchScreen.storyboard */; };
+		AFCDF72F1D15B101001BA368 /* MotionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCDF72E1D15B101001BA368 /* MotionKit.swift */; };
+		AFDE757E1D170E67000B94F4 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = AFDE757D1D170E67000B94F4 /* 11.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AFCDF7231D15AFE6001BA368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFCDF7261D15AFE6001BA368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFCDF7281D15AFE6001BA368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFCDF72E1D15B101001BA368 /* MotionKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MotionKit.swift; path = ../../SwiftMotionSample/SwiftMotionSample/MotionKit.swift; sourceTree = "<group>"; };
+		AFDE757D1D170E67000B94F4 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		AFCDF71B1D15AFE6001BA368 /* SwiftLeveler */ = {
 			isa = PBXGroup;
 			children = (
+				AFDE757D1D170E67000B94F4 /* 11.png */,
+				AFCDF72E1D15B101001BA368 /* MotionKit.swift */,
 				AFCDF71C1D15AFE6001BA368 /* AppDelegate.swift */,
 				AFCDF71E1D15AFE6001BA368 /* ViewController.swift */,
 				AFCDF7201D15AFE6001BA368 /* Main.storyboard */,
@@ -125,6 +131,7 @@
 				AFCDF7271D15AFE6001BA368 /* LaunchScreen.storyboard in Resources */,
 				AFCDF7241D15AFE6001BA368 /* Assets.xcassets in Resources */,
 				AFCDF7221D15AFE6001BA368 /* Main.storyboard in Resources */,
+				AFDE757E1D170E67000B94F4 /* 11.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +144,7 @@
 			files = (
 				AFCDF71F1D15AFE6001BA368 /* ViewController.swift in Sources */,
 				AFCDF71D1D15AFE6001BA368 /* AppDelegate.swift in Sources */,
+				AFCDF72F1D15B101001BA368 /* MotionKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +296,7 @@
 				AFCDF72D1D15AFE6001BA368 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
